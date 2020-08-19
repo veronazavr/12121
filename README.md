@@ -1,18 +1,25 @@
-# Отчёт о тестировании Credit Card Number Validator
-*Отчет был выполнен* 12.08.2020 - 15.08.2020
+Отчёт о тестировании Credit Card Number Validator
+был выполнен цикл тестирования клиентского портала 12.08.2020 - 15.08.2020
 
-было проведено **регрессионное тестирование**
+было проведено регрессионное тестирование
 
-**артефакты:**
+приложения Java.
+В процессе тестирования использовались следующие артефакты:
 
-*Дефекты / Баг Репорты*
+Дефекты / Баг Репорты
+В качестве тестовых данных использовались данные из сервиса: freeformatter.com :
 
-**В качестве тестовых данных использовались данные из сервиса: *freeformatter.com:***
+30238536875115 фактический результат Result is OK
 
-American Express (AMEX): 372426383362099
+5447748467662049 фактический результат Result is OK
 
+4556522125776404 фактический результат Result is OK
 
-***Oкружениe:***
+*American Express (AMEX): 372426383362099 фактический результат Result is FAIL
+
+[Issues](https://github.com/veronazavr/12121/issues/1)
+
+Oкружениe:
 IntelliJ IDEA 2020.2 (Community Edition)
 
 Build #IC-202.6397.94,
@@ -29,5 +36,5 @@ GC: ParNew, ConcurrentMarkSweep Memory: 725M Cores: 4
 
 Java version "11.0.8" 2020-07-14
 
-![scrinJava](scrinJava.png)
+![scrinJava](https://user-images.githubusercontent.com/67536596/90444488-9a0f1100-e0e6-11ea-83eb-70d6e854da63.png)
 
