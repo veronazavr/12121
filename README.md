@@ -1,25 +1,30 @@
-Отчёт о тестировании Credit Card Number Validator
-был выполнен цикл тестирования клиентского портала 12.08.2020 - 15.08.2020
+# Отчёт о тестировании Credit Card Number Validator
 
-было проведено регрессионное тестирование
+*был выполнен цикл тестирования клиентского портала*
+12.08.2020 - 15.08.2020
 
-приложения Java.
-В процессе тестирования использовались следующие артефакты:
+***было проведено регрессионное тестирование***
+## приложения Java.
 
-Дефекты / Баг Репорты
-В качестве тестовых данных использовались данные из сервиса: freeformatter.com :
 
-30238536875115 фактический результат Result is OK
+**В процессе тестирования использовались следующие артефакты:**
 
-5447748467662049 фактический результат Result is OK
+### Дефекты / Баг Репорты
 
-4556522125776404 фактический результат Result is OK
+В качестве тестовых данных использовались данные из сервиса: **freeformatter.com** :
 
-*American Express (AMEX): 372426383362099 фактический результат Result is FAIL
+*30238536875115 фактический результат Result is **OK***
+
+*5447748467662049 фактический результат Result is **OK***
+
+*4556522125776404 фактический результат Result is **OK***
+
+***American Express (AMEX): 372426383362099 фактический результат Result is *FAIL***
 
 [Issues](https://github.com/veronazavr/12121/issues/1)
 
-Oкружениe:
+## Oкружениe:
+
 IntelliJ IDEA 2020.2 (Community Edition)
 
 Build #IC-202.6397.94,
@@ -32,9 +37,10 @@ VM: OpenJDK 64-Bit Server VM by JetBrains s.r.o.
 
 Windows 10 10.0
 
-GC: ParNew, ConcurrentMarkSweep Memory: 725M Cores: 4
+GC: ParNew, ConcurrentMarkSweep
+Memory: 725M Cores: 4
 
-Java version "11.0.8" 2020-07-14
+## **Java version "11.0.8" 2020-07-14**
 
 ![scrinJava](https://user-images.githubusercontent.com/67536596/90444488-9a0f1100-e0e6-11ea-83eb-70d6e854da63.png)
 
